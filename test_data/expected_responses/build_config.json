@@ -1,0 +1,12 @@
+{
+    "id": "TestProject_SampleBuild",
+    "name": "Sample Build",
+    "description": "Sample build configuration for testing",
+    "href": "/app/rest/buildTypes/id:TestProject_SampleBuild",
+    "webUrl": "http://localhost:8111/viewType.html?buildTypeId=TestProject_SampleBuild",
+    "project": {
+        "id": "TestProject",
+        "name": "Test Project TestProject",
+        "href": "/app/rest/projects/id:TestProject"
+    }
+}

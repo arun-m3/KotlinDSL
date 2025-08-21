@@ -1,0 +1,11 @@
+{
+    "id": "TestProject",
+    "name": "Test Project TestProject",
+    "description": "Automated test project for Kotlin DSL validation",
+    "href": "/app/rest/projects/id:TestProject",
+    "webUrl": "http://localhost:8111/project.html?projectId=TestProject",
+    "archived": false,
+    "readOnlyUI": {
+        "enabled": false
+    }
+}
