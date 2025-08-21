@@ -43,7 +43,7 @@ Run Team City instance using:
 3. **Configure environment**:
    ```bash
    cp .env.example .env
-# Edit .env with your settings
+   [Edit .env with your settings]
 
 4. **Start TeamCity (Docker)**:
    ```bash
