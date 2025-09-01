@@ -20,7 +20,7 @@ See the project structure section above for detailed file organization.
 ### Prerequisites
 
 - Python 3.8+
-- Docker and Docker Compose (for local TeamCity instance)
+- Docker (for local TeamCity instance)
 - Git repository access (for synchronization tests)
 
 ### Local Setup
@@ -45,25 +45,22 @@ Run Team City instance using:
    cp .env.example .env
    [Edit .env with your settings]
 
-4. **Start TeamCity (Docker)**:
-   ```bash
-   docker-compose up -d teamcity-server teamcity-agent
-
-5. **Wait for TeamCity to start and setup admin user**:
+4. **Wait for TeamCity to start and setup admin user**:
    ```bash
    python scripts/setup_environment.py
 
 
-6. **Running Tests**
+5. **Running Tests**
    Run All Tests
       ```bash
       pytest -v
+   ```
    Run Specific Test Categories
       ```bash
       pytest tests/test_dsl_import.py -v
       pytest tests/test_synchronization.py -v
       pytest tests/test_pipeline_execution.py -v
 
-7. **Pipeline: Jenkins**
+6. **Pipeline: Jenkins**
    Use the provided Jenkinsfile for Jenkins CI/CD.
 
